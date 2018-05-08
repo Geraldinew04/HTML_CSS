@@ -21,7 +21,7 @@
 		footer = copyright-->
 
 		<div class="main">
-			<div class="main-header">
+			<div class="main-header" id="up">
 
 				<a href="img/asaquip.png"><img src="img/asaquip_mini.png" alt="logo" title="Cliquez pour agrandir"/></a>
 
@@ -74,7 +74,7 @@
 					<div class="container02">
 						<h2 id="contact">Contact</h2>
 			
-						<form class="" action="index.html" method="post">
+						<form class="" action="./index.html" method="post">
 				
 							<label>First name</label><br>
 							<input type="text" name="Firstname"><br>
@@ -83,9 +83,9 @@
 							<input type="text" name="lastname"><br>
 				
 							<label>Message</label><br>
-							<textarea></textarea><br>
+							<textarea name="Message"></textarea><br>
 				
-							<button type="submit" name="send">Send</button>
+							<button type="submit" name="send" value="contact">Send</button>
 				
 						</form>
 
@@ -97,7 +97,14 @@
 			
 
 			<div class="main-footer">
-				<p> Géraldine Winand© 2018</p>
+				
+				<div class="trop">
+					<a href="#up" title="up">
+						<img src="img/up.png" alt="bouton up" width="25" height="25"/>
+					</a>
+					<p>Géraldine Winand© 2018</p>
+				</div>
+				
 			</div>
 
 		</div>

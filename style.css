@@ -5,7 +5,7 @@ font-family: Helvetica, sans-serif;
 
 *, *:before, *:after {
 box-sizing: inherit;
-padding: -1px; margin: 0;
+padding: 0px; margin: 0;
 }
 
 html,body{
@@ -35,12 +35,12 @@ text-decoration: none;
 }
 
 .main-header a img{
-	float: left;
+	float: right;
 	max-height: 150px; 
 }
 
 .main-header img{
-	float: right;
+	float: left;
 	max-height: 150px; 
 }
 
@@ -124,4 +124,20 @@ h2{
 	color: #000;
 }
 
+.main-footer a img{
+	float: left;
+	margin-bottom: 5px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
 
+/*.trop {
+	display: inline;
+	float: right;
+	margin-bottom: 5px;
+}
+
+.trop p{
+	padding-right: 10px; 
+}
+*/
