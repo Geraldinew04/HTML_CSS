@@ -14,7 +14,7 @@ height: 100%; width: 100%;
 
 ul,li,a{
 margin: 0; 
-padding:0; 
+padding: 0; 
 text-decoration: none;
 }
 
@@ -33,10 +33,16 @@ text-decoration: none;
 	 
 }
 
-img{
+.main-header a img{
 	float: left;
 	max-height: 150px; 
 }
+
+.main-header img{
+	float: right;
+	max-height: 150px; 
+}
+
 
 #menu{
 	padding: 0;
@@ -48,27 +54,51 @@ img{
 #menu li{
 	display: inline;
 	list-style: none;
+
 }
 
 #menu a{
-	
-	border: solid;
-	padding: 5px; 
-	margin: 5px; 
-	
+	border: 1px solid; 
+	font-size: 25px; 
+	padding: 5px;
+	margin-right: 10px;	
+	color: #E9967A;
+}
+
+#menu a:hover{
+	background-color: #5F9EA0; 
+	color: #ccc; 
+	border: 1px solid #000;
 }
 
 
+
 .main-container{
-	clear: left;
+	clear: both;
 	height: auto; 
 	background-color: #5F9EA0; 
 	padding: 40px;
 }
 
-h1{
+.container01 a{
+	text-decoration : underline;
+	color: #EEE;
+	font-weight: bold;
+}
 
-	color: #E9967A;
+.container01, .container02{
+	margin: 10px; 
+}
+
+.container01 p, .container02 label, .container02 input{
+	margin: 5px; 
+	padding-top: 2px;
+}
+
+
+h1{
+	font-size: 50px; 
+	color:#FFFFE0 ;
 	text-align: center;
 }
 
@@ -85,9 +115,12 @@ h2{
 	height: 50px; 
 	background-color: #E9967A; 
 	padding: 15px; 
-	text-align: center;
+	text-align: right;
 }
 
-
+.container02 input, .container02 textarea{
+	background-color: #FFFFE0;
+	color: #000;
+}
 
 
