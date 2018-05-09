@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<title>Exercice 1 _ Géraldine Winand</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	</head>
 	<body>
 
@@ -22,70 +23,113 @@
 
 		<div class="main">
 			<div class="main-header" id="up">
+				
+				<div class="images">
+					<a href="https://www.becode.org/" target="_blank"><img src="https://pbs.twimg.com/profile_images/976503221689692161/8s0PJ9xs_400x400.jpg" alt="logo BeCode"/></a>
 
-				<a href="img/asaquip.png"><img src="img/asaquip_mini.png" alt="logo" title="Cliquez pour agrandir"/></a>
+					<nav id="menu_rs"> <!-- menu réseaux sociaux -->
 
-				<img src="https://pbs.twimg.com/profile_images/976503221689692161/8s0PJ9xs_400x400.jpg" alt="logo BeCode"/>
+						<ul>
+
+							<li><a href="mailto:winand.geraldine@hotmail.com" title="Email" target="_blank"><i class="fa fa-envelope-o" style="font-size: 30px; color: #F0FFFF;" aria-hidden="true"></i> </a></li>
+
+							<li><a href="https://www.linkedin.com/in/g%C3%A9raldine-winand-34b4137b/" title="Lien Linkedin" target="_blank"><i class="fa fa-linkedin" style="font-size: 30px; color: #4169E1" aria-hidden="true"></i></a></li>
+
+							<li><a href="https://www.facebook.com/geraldine.winand" title="facebook" target="_blank"><i class="fa fa-facebook-official" style="font-size: 30px; color: #0000CD" aria-hidden="true"></i></a></li>
+
+							<li><a href="https://www.instagram.com/geraldinewinand/" target="_blank"><i class="fa fa-instagram" style="font-size: 30px; color: #C71585" aria-hidden="true"></i></a></li>
+
+						</ul>						
+					</nav>
+
+				</div>
 
 				<nav id="menu">
 					<ul>
 						<li><a href="#presentation" target="_self" title="Présentation">Présentation</a></li>
 
-						<li><a href="#contact" target="_self" title="Contact">Contact</a></li>
+						<li><a href="#projets" target="_blank" title="Projets">Projets</a></li>
 
-						<li><a href="https://www.linkedin.com/in/g%C3%A9raldine-winand-34b4137b/" title="Lien Linkedin" target="_blank">Mon profil Linkedin</a></li>
+						<li><a href="#contact" target="_self" title="Contact">Contact</a></li>
 					</ul>
-				
-				</nav>
+				</nav>	
 
 			</div>
 
-
 			<div class="main-container">
 				<section>
+					<a href="img/asaquip.png"><img src="img/asaquip_mini.png" alt="logo" title="Cliquez pour agrandir"/></a>
 					<h1>Géraldine Winand</h1>
 
+				
+
 					<div class="container01">
+						<h2 id="presentation">Présentation</h2>
 
-						<h2 id="presentation"> Ce que je fais maintenant</h2>
+						<div class="now">
 
-						<p>Je suis actuellement stagiaire chez <a href="https://www.becode.org/" title="BeCode" target="_blank">BeCode</a> en tant que web developper junior</p>
+							<h3> Ce que je fais maintenant</h3>
+							<hr>
 
-						<br>
+							<p>Actuellement, je suis stagiaire à <a href="https://www.becode.org/" title="BeCode" target="_blank">BeCode</a> en tant que web developper junior à Bruxelles.</p>
 
-						<h2>Ce que je veux faire plus tard</h2>
+						</div>
 
-						<p>Je souhaite ouvrir mon agence web/design/communication</p>
+						<div class="futur">
 
-						<br>
+							<h3>Ce que je veux faire plus tard</h3>
+							<hr>
 
-						<h2>Mes hobbies</h2>
+							<p>Dans un premier temps, j'aimerais travailler dans une entreprise style start-up dans le but de me forger une expérience dans le métier. Me créer un réseau professionnel, un portofolio.. </p>
+
+							<p>Cependant à terme, mon ambition est d'ouvrir mon agence web/design/communication dans la région liégeoise</p>
+
+							<p>J'aimerais également travailler l'informatique avec les enfants : comment utiliser un ordinateur, les initier au code, leur apprendre à utiliser internet (sécurité, comment détecter les fake news, etc).</p>
+
+						</div>
+
+						<div class="hobbies">
+
+							<h3>Mes hobbies</h3>
+							<hr>
 						
-						<ul>
-							<li>Les voyages</li>
-							<li>La cuisine</li>
-							<li>Le yoga (methode Bikram)</li>
-							<li>Les Festivals</li>
-							<li>L'équitation</li>
-						</ul>
+							<ul>
+								<li>Les voyages</li>
+								<li>La cuisine</li>
+								<li>Le yoga (methode Bikram)</li>
+								<li>Les Festivals</li>
+								<li>L'équitation</li>
+							</ul>
+						</div>
 				
 					</div>
 
+				</section>
+
+				<section>
 					<div class="container02">
+						<h2 id="projets">Projets</h2>
+						
+					</div>
+
+
+					<div class="container03">
 						<h2 id="contact">Contact</h2>
 			
 						<form class="" action="./index.html" method="post">
 				
 							<label>First name</label><br>
-							<input type="text" name="Firstname"><br>
+							<input type="text" placeholder="First Name" name="Firstname"><br>
 				
 							<label>Last name</label><br>
-							<input type="text" name="lastname"><br>
+							<input type="text" placeholder="Last Name" name="lastname"><br>
 				
 							<label>Message</label><br>
-							<textarea name="Message"></textarea><br>
-				
+							<textarea name="Message" placeholder="Vos questions et/ou remarques"></textarea><br>
+							
+						<div id="send">
 							<button type="submit" name="send" value="contact">Send</button>
+						</div>
 				
 						</form>
 

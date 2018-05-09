@@ -30,81 +30,99 @@ text-decoration: none;
 
 .main-header{
 	height: 150px; 
-	background-color: #FFFFE0; 
-	 
+	background-color: #778899;
+	
 }
 
 .main-header a img{
-	float: right;
-	max-height: 150px; 
-}
-
-.main-header img{
 	float: left;
 	max-height: 150px; 
 }
 
+#menu_rs{
+	float: right;
+	list-style: none;
+	margin-top: 15px; 
+	margin-right: 5px; 
+}
+
+#menu_rs ul{
+	list-style: none; 
+ 
+}
 
 #menu{
 	padding: 0;
-	line-height: 150px; 
-	text-align: center;
-
+	text-align: center;	
+	vertical-align: middle;
 }
 
 #menu li{
-	display: inline;
+	display: inline-block;
 	list-style: none;
-
+	margin-top: 60px; 
 }
 
 #menu a{
-	border: 1px solid; 
 	font-size: 25px; 
 	padding: 5px;
 	margin-right: 10px;	
-	color: #E9967A;
+	color: #2F4F4F;
 }
 
 #menu a:hover{
-	background-color: #5F9EA0; 
+	background-color: #FFFFE0; 
 	color: #ccc; 
 	border: 1px solid #000;
 }
 
-
-
 .main-container{
 	clear: both;
 	height: auto; 
-	background-color: #5F9EA0; 
-	padding: 40px;
+	margin-top: 30px;  
+}
+
+.main-container a img{
+	float: left;
+	max-height: 90px; 
+	margin-top: 5px;  
+}
+
+h1{
+	font-size: 50px; 
+	color:#2F4F4F ;
+	height: 80px;  
+	padding-top: 10px; 
+	height: 100px;
+	
+}
+
+.container01, .container02{
+	padding: 20px;
 }
 
 .container01 a{
 	text-decoration : underline;
-	color: #EEE;
+	color: #2F4F4F;
 	font-weight: bold;
 }
 
-.container01, .container02{
-	margin: 10px; 
-}
-
-.container01 p, .container02 label, .container02 input{
-	margin: 5px; 
-	padding-top: 2px;
+.container01 p, .container01 ul, .container03 label, .container02 input, .container02 textarea{
+	margin-left: 20px; 
+	padding-top: 20px;
 }
 
 
-h1{
-	font-size: 50px; 
-	color:#FFFFE0 ;
-	text-align: center;
+
+.container01 h2, .container02 h2, .container03 h2{
+	font-size: 35px; 
+	color: #CCC;
 }
 
-h2{
-	color: #FFFFE0;
+h3{
+	color: #2F4F4F;
+	margin-left: 15px;
+	padding-top: 20px; 
 }
 
 .main-container li{
@@ -112,17 +130,38 @@ h2{
 }
 
 
+
+.container03{
+	background-color: #778899;
+	padding: 20px; 
+	line-height: 1.5; 
+}
+
+.container03 h2{
+	font-size: 35px; 
+	color: #CCC;
+}
+
+.container03 input, .container03 textarea{
+	background-color: #FFFFE0;
+	color: #000;
+	width: 95%;
+	padding: 15px; 
+
+}
+
+/*#send{
+	padding: 10px; 
+
+}*/
+
 .main-footer{
 	height: 50px; 
-	background-color: #E9967A; 
+	background-color: #FFFFE0; 
 	padding: 15px; 
 	text-align: right;
 }
 
-.container02 input, .container02 textarea{
-	background-color: #FFFFE0;
-	color: #000;
-}
 
 .main-footer a img{
 	float: left;
@@ -130,6 +169,7 @@ h2{
 	border: 1px solid black;
 	border-radius: 10px;
 }
+
 
 /*.trop {
 	display: inline;
