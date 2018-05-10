@@ -5,6 +5,7 @@
 		<title>Exercice 1 _ Géraldine Winand</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
 	</head>
 	<body>
 
@@ -33,11 +34,11 @@
 
 							<li><a href="mailto:winand.geraldine@hotmail.com" title="Email" target="_blank"><i class="fa fa-envelope-o" style="font-size: 30px; color: #F0FFFF;" aria-hidden="true"></i> </a></li>
 
-							<li><a href="https://www.linkedin.com/in/g%C3%A9raldine-winand-34b4137b/" title="Lien Linkedin" target="_blank"><i class="fa fa-linkedin" style="font-size: 30px; color: #4169E1" aria-hidden="true"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/g%C3%A9raldine-winand-34b4137b/" title="Lien Linkedin" target="_blank"><i class="fa fa-linkedin" style="font-size: 30px; color: #FFFFFF" aria-hidden="true"></i></a></li>
 
-							<li><a href="https://www.facebook.com/geraldine.winand" title="facebook" target="_blank"><i class="fa fa-facebook-official" style="font-size: 30px; color: #0000CD" aria-hidden="true"></i></a></li>
+							<li><a href="https://www.facebook.com/geraldine.winand" title="facebook" target="_blank"><i class="fa fa-facebook-official" style="font-size: 30px; color: #FFFFFF" aria-hidden="true"></i></a></li>
 
-							<li><a href="https://www.instagram.com/geraldinewinand/" target="_blank"><i class="fa fa-instagram" style="font-size: 30px; color: #C71585" aria-hidden="true"></i></a></li>
+							<li><a href="https://www.instagram.com/geraldinewinand/" target="_blank"><i class="fa fa-instagram" style="font-size: 30px; color: #FFFFFF" aria-hidden="true"></i></a></li>
 
 						</ul>						
 					</nav>
@@ -58,9 +59,9 @@
 
 			<div class="main-container">
 				<section>
-					<a href="img/asaquip.png"><img src="img/asaquip_mini.png" alt="logo" title="Cliquez pour agrandir"/></a>
-					<h1>Géraldine Winand</h1>
+					<img src="img/asaquip.png" alt="logo" title="Cliquez pour agrandir"/>
 
+					<h1>Géraldine Winand</h1>
 				
 
 					<div class="container01">
@@ -68,21 +69,22 @@
 
 						<div class="now">
 
-							<h3> Ce que je fais maintenant</h3>
+							<h3> Mon présent</h3>
 							<hr>
 
 							<p>Actuellement, je suis stagiaire à <a href="https://www.becode.org/" title="BeCode" target="_blank">BeCode</a> en tant que web developper junior à Bruxelles.</p>
 
+							<p>Je fais partie de la promotion  <strong>Johnson</strong>, en référence à <a href="https://fr.wikipedia.org/wiki/Katherine_Johnson" target="_blank"> Katherine Johnson</a>, une physicienne, mathématicienne et ingénieure spatiale afro-américaine qui a contribué aux programmes aéronautiques et spatiaux de la NASA. Sa vie fait l'objet du livre <em>Hidden Figures</em> de Margot Lee Shetterly, adapté au cinéma en 2017.</p>
+
 						</div>
 
 						<div class="futur">
-
 							<h3>Ce que je veux faire plus tard</h3>
 							<hr>
 
 							<p>Dans un premier temps, j'aimerais travailler dans une entreprise style start-up dans le but de me forger une expérience dans le métier. Me créer un réseau professionnel, un portofolio.. </p>
 
-							<p>Cependant à terme, mon ambition est d'ouvrir mon agence web/design/communication dans la région liégeoise</p>
+							<p>Cependant à terme, mon ambition est d'ouvrir mon agence web/design/communication dans la région liégeoise.</p>
 
 							<p>J'aimerais également travailler l'informatique avec les enfants : comment utiliser un ordinateur, les initier au code, leur apprendre à utiliser internet (sécurité, comment détecter les fake news, etc).</p>
 
@@ -96,9 +98,9 @@
 							<ul>
 								<li>Les voyages</li>
 								<li>La cuisine</li>
-								<li>Le yoga (methode Bikram)</li>
+								<li>Le yoga (Bikram method)</li>
 								<li>Les Festivals</li>
-								<li>L'équitation</li>
+								
 							</ul>
 						</div>
 				
@@ -110,28 +112,49 @@
 					<div class="container02">
 						<h2 id="projets">Projets</h2>
 						
+							<div class="work_in_progress">
+
+								<p><iframe src="https://giphy.com/embed/xTkcEQACH24SMPxIQg" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p>Work in progress...</p>
+								
+							</div>
 					</div>
 
 
 					<div class="container03">
 						<h2 id="contact">Contact</h2>
-			
-						<form class="" action="./index.html" method="post">
+
+						<div class="formulaire">
+
+							<form class="" action="./index.html" method="post">
+
+								<div class="first_name">
+									<label>First name</label><br>
+								<input type="text" placeholder="First Name" name="Firstname"><br>
+									
+								</div>
+								
+								<div class="last_name">
+									<label>Last name</label><br>
+								<input type="text" placeholder="Last Name" name="lastname"><br>
+									
+								</div>
+								
+								<div class="message">
+									<label>Message</label><br>
+								<textarea name="Message" placeholder="Vos questions et/ou remarques"></textarea><br>
+									
+								</div>
+								
+								
+								<div id="send">
+								<button type="submit" name="send" value="contact">Send</button>
+								</div>
 				
-							<label>First name</label><br>
-							<input type="text" placeholder="First Name" name="Firstname"><br>
-				
-							<label>Last name</label><br>
-							<input type="text" placeholder="Last Name" name="lastname"><br>
-				
-							<label>Message</label><br>
-							<textarea name="Message" placeholder="Vos questions et/ou remarques"></textarea><br>
+							</form>
 							
-						<div id="send">
-							<button type="submit" name="send" value="contact">Send</button>
 						</div>
-				
-						</form>
+			
+						
 
 					</div>
 
@@ -146,7 +169,7 @@
 					<a href="#up" title="up">
 						<img src="img/up.png" alt="bouton up" width="25" height="25"/>
 					</a>
-					<p>Géraldine Winand© 2018</p>
+					<p>Géraldine Winand© 2018 - Tous droits réservés !</p>
 				</div>
 				
 			</div>
