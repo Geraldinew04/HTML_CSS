@@ -35,7 +35,7 @@ text-decoration: none;
 }
 
 .main-header{
-	height: 150px; 
+	height: 500px; 
 	background-color: #F7CBF8;
 	background-image: url(img/fond.png);
 	
@@ -43,10 +43,11 @@ text-decoration: none;
 
 .main-header a img{
 	float: left;
-	max-height: 150px; 
-	border-radius: 80px;  
+	height: 150px; 
+	border-radius: 80px; 
+	margin-top: 15px;  
+	margin-left: 5px; 
 }
-
 
 #menu_rs{
 	float: right;
@@ -57,6 +58,7 @@ text-decoration: none;
 
 #menu_rs ul{
 	list-style: none; 
+	height: 500px; 
  
 }
 
@@ -64,13 +66,13 @@ text-decoration: none;
 	padding: 0;
 	text-align: center;	
 	vertical-align: middle;
-	height: 150px; 
+	height: 500px; 
 }
 
 #menu li{
 	display: inline-block;
 	list-style: none;
-	margin-top: 60px; 
+	margin-top: 250px; 
 	color: #FFFFFF;
 }
 
