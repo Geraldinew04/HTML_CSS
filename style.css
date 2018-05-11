@@ -35,7 +35,7 @@ text-decoration: none;
 }
 
 .main-header{
-	height: 500px; 
+	height: 200px; 
 	background-color: #F7CBF8;
 	background-image: url(img/fond.png);
 	
@@ -46,33 +46,39 @@ text-decoration: none;
 	height: 150px; 
 	border-radius: 80px; 
 	margin-top: 15px;  
-	margin-left: 5px; 
+	margin-left: 5px;
 }
 
 #menu_rs{
 	float: right;
 	list-style: none;
 	margin-top: 15px; 
-	margin-right: 5px; 
+	margin-right: 5px;
 }
 
 #menu_rs ul{
 	list-style: none; 
-	height: 500px; 
+	height: 200px; 
  
 }
 
+
 #menu{
+	margin: 0; 
 	padding: 0;
 	text-align: center;	
 	vertical-align: middle;
+	height: 200px; 
+}
+
+#menu ul{
 	height: 500px; 
 }
 
 #menu li{
 	display: inline-block;
 	list-style: none;
-	margin-top: 250px; 
+	margin-top: 100px; 
 	color: #FFFFFF;
 }
 
@@ -121,7 +127,8 @@ h1{
 	font-family: 'Handlee';
 	font-size: 40px; 
 	color: #B11C52; 
-	background-color: #FFFFFF;  
+	background-color: #FFFFFF; 
+	margin: 0;  
 	padding-top: 4; 
 	line-height: 100px;
 	text-align: center;
@@ -201,7 +208,7 @@ h3{
 .container03{
 	background-color: #F9E5F6;
 	padding: 20px; 
-	line-height: 1.5; 
+	line-height: 1.5;  
 }
 
 .formulaire{
@@ -236,14 +243,3 @@ h3{
 	border-radius: 10px;
 }
 
-
-/*.trop {
-	display: inline;
-	float: right;
-	margin-bottom: 5px;
-}
-
-.trop p{
-	padding-right: 10px; 
-}
-*/
