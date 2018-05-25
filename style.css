@@ -1,6 +1,7 @@
 @font-face{
 	font-family: 'Handlee', cursive;
-}
+	}
+
 
 html {
 box-sizing: border-box;
@@ -15,7 +16,7 @@ padding: 0px; margin: 0;
 
 html,body{
 display: block;
-height: 100%; width: 100%;
+height: auto; width: 100%;
 }
 
 ul,li,a{
@@ -38,6 +39,7 @@ text-decoration: none;
 	height: 200px; 
 	background-color: #F7CBF8;
 	background-image: url(img/fond.png);
+	position: fixed;
 	
 }
 
@@ -47,6 +49,20 @@ text-decoration: none;
 	border-radius: 80px; 
 	margin-top: 15px;  
 	margin-left: 5px;
+}
+
+.progress-container {
+width: 100%;
+height: 5px;
+background: grey;
+position:fixed;
+top: 0px;
+}
+
+.progress-bar {
+height: 5px;
+background: pink;
+width: 0%;
 }
 
 #menu_rs{
@@ -59,7 +75,6 @@ text-decoration: none;
 #menu_rs ul{
 	list-style: none; 
 	height: 200px; 
- 
 }
 
 
@@ -72,13 +87,13 @@ text-decoration: none;
 }
 
 #menu ul{
-	height: 500px; 
+	height: 200px; 
 }
 
 #menu li{
 	display: inline-block;
 	list-style: none;
-	margin-top: 100px; 
+	margin-top: 75px; 
 	color: #FFFFFF;
 }
 
@@ -89,7 +104,6 @@ text-decoration: none;
 	padding: 5px;
 	margin-right: 10px;	
 	font-weight: bold;
-
 }
 
 #menu a:hover{
@@ -138,7 +152,7 @@ h1{
 	background-color: #F9E5F6; 
 }
 
-.now, .futur, .hobbies, .formulaire{
+.now, .futur, .experience, .skills, .hobbies, .formulaire{
 	display: block;
 	background-color: #FFFFFF; 
 	line-height: 100%;
@@ -146,9 +160,33 @@ h1{
 	margin-top: 15px;
 }
 
-.futur, .hobbies{
+.futur,.experience,.hobbies{
 	padding-top: 5px, 
 	margin-top:15px ;
+}
+
+.skills table{
+	margin-top: 15px; 
+	padding-left: 25px; 
+}
+
+.skills table td{
+
+	padding: 5px; 
+
+}
+
+#hobbies{
+	padding-top: 50px;  
+	text-align: center;	
+	vertical-align: middle;
+	height: 200px; 
+}
+
+#hobbies li{
+	display: inline-block; 
+	list-style: none;
+	padding: 25px; 
 }
 
 .container01, .container02{
@@ -184,6 +222,9 @@ h3{
 	padding-top: 20px; 
 }
 
+.container02{
+	background-color: #F9E5F6;
+}
 
 .container02 p{
 	text-align: center;
@@ -194,15 +235,13 @@ h3{
 	display: block; 
 	line-height: 100%;  
 	margin-top: 15px;
-	border: 2px solid #F9E5F6 ;
+	border: 5px solid #FFFFFF ;
 	padding: 20px; 
 }
 
 .work_in_progress iframe{
 	width: 70px;
 	height: 70px;
-
-
 }
 
 .container03{
